@@ -5,3 +5,35 @@ html, body {
 canvas {
   display: block;
 }
+
+input{
+  
+}
+
+button{
+
+background-color: : rgb(230,200,150);
+border: none;
+color: white;
+padding:  55px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}
+
+button: hover{
+  background-color: rgb(30,70,40);
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   song = loadSound("Shaki.mp3");
+  background(0, 58, 90);
 }
 
 //draw function runs at 60 frames per second
@@ -67,10 +68,10 @@ function draw() {
 function mousePressed() {
   if (song.isPlaying()) {
     // .isPlaying() returns a boolean
-    song.stop();
+     song.stop();
     background(0, 58, 90);
   } else {
-    song.play();
+   song.play();
     background(ZL,255)
   }
 }
