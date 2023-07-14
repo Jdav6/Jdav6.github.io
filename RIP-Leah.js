@@ -33,6 +33,7 @@ function preload(){
 	vid3 = createVideo(["Leah-collage/2.mp4"])
 	vid4 = createVideo(["Leah-collage/3.mp4"])
 	vid5 = createVideo(["Leah-collage/4.mp4"])
+	vid6 = createVideo("Leah-collage/Collage-vid.mp4")
 
 }
 
@@ -92,6 +93,8 @@ function draw() {
     vid4.hide()
 
     vid5.hide()
+
+    vid6.hide()
 	}
 
 	if(collageBool == true){
@@ -109,11 +112,18 @@ function draw() {
 
 	if(galleryBool == true){
 		gallery()
+
+		vid6.hide()
 	}
 }
 
 function collage(){
 	background(145, 70, 219)
+	vid6.show()
+	vid6.position(380,130)
+	vid6.attribute('controls', 'true')
+	vid6.attribute('width', '650px')
+   vid6.attribute('height', '450px')
 }
 
 function gallery(){
