@@ -33,7 +33,7 @@ function preload(){
 	vid3 = createVideo(["Leah-collage/2.mp4"])
 	vid4 = createVideo(["Leah-collage/3.mp4"])
 	vid5 = createVideo(["Leah-collage/4.mp4"])
-	vid6 = createVideo("Leah-collage/Collage-vid.mp4")
+	vid6 = createVideo(["Leah-collage/5.mp4"])
 
 }
 
